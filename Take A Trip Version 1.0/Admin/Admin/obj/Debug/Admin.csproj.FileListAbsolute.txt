@@ -1,0 +1,13 @@
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Booking.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Mas.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\mdrif\OneDrive\Desktop\Project\Admin\Admin\obj\Debug\WindowsFormsApplication1.pdb

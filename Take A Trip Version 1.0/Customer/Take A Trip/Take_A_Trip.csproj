@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DBCC8E1-D8C0-491D-8E85-B2F97EE049A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Take_A_Trip</RootNamespace>
+    <AssemblyName>Take A Trip</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Money.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Money.Designer.cs">
+      <DependentUpon>Add_Money.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking_History.Designer.cs">
+      <DependentUpon>Booking_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copy_Blog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copy_Blog.Designer.cs">
+      <DependentUpon>Copy_Blog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking_change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking_change.Designer.cs">
+      <DependentUpon>Booking_change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Memo_frame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Memo_frame.Designer.cs">
+      <DependentUpon>Memo_frame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Memo_Calculation.cs" />
+    <Compile Include="Customer_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Dashboard.Designer.cs">
+      <DependentUpon>Customer_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\Destination_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\Destination_Page.Designer.cs">
+      <DependentUpon>Destination_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blog_Page.Designer.cs">
+      <DependentUpon>Blog_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactUs_Page.Designer.cs">
+      <DependentUpon>ContactUs_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\CopyDestination_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\CopyDestination_Form.Designer.cs">
+      <DependentUpon>CopyDestination_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\Forest_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\Forest_Page.Designer.cs">
+      <DependentUpon>Forest_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ac_Bus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ac_Bus.Designer.cs">
+      <DependentUpon>Ac_Bus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyAcBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyAcBus.Designer.cs">
+      <DependentUpon>CopyAcBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyNoneAc_Bus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyNoneAc_Bus.Designer.cs">
+      <DependentUpon>CopyNoneAc_Bus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiveStar_Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiveStar_Hotel.Designer.cs">
+      <DependentUpon>FiveStar_Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuelBed_4Star.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuelBed_4Star.Designer.cs">
+      <DependentUpon>DuelBed_4Star.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyRoomDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyRoomDesign.Designer.cs">
+      <DependentUpon>CopyRoomDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotelBed_FiveStar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotelBed_FiveStar.Designer.cs">
+      <DependentUpon>MotelBed_FiveStar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoyalBed_FiveStar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoyalBed_FiveStar.Designer.cs">
+      <DependentUpon>RoyalBed_FiveStar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleBed_4Star.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleBed_4Star.Designer.cs">
+      <DependentUpon>SingleBed_4Star.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourStar_Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourStar_Hotel.Designer.cs">
+      <DependentUpon>FourStar_Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoneAC_Bus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoneAC_Bus.Designer.cs">
+      <DependentUpon>NoneAC_Bus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\Historical_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\Historical_Page.Designer.cs">
+      <DependentUpon>Historical_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\Mountain_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\Mountain_Page.Designer.cs">
+      <DependentUpon>Mountain_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Destination\SeaBeach_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination\SeaBeach_Page.Designer.cs">
+      <DependentUpon>SeaBeach_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile_page.Designer.cs">
+      <DependentUpon>UserProfile_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wallet_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wallet_Page.Designer.cs">
+      <DependentUpon>Wallet_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel_Page.Designer.cs">
+      <DependentUpon>Hotel_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transport_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transport_Page.Designer.cs">
+      <DependentUpon>Transport_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Page.Designer.cs">
+      <DependentUpon>Home_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\SignUp_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\SignUp_Staff.Designer.cs">
+      <DependentUpon>SignUp_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\SignUp_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\SignUp_Customer.Designer.cs">
+      <DependentUpon>SignUp_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Blog_Page.resx">
+      <DependentUpon>Blog_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking_History.resx">
+      <DependentUpon>Booking_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUs_Page.resx">
+      <DependentUpon>ContactUs_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy_Blog.resx">
+      <DependentUpon>Copy_Blog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Dashboard.resx">
+      <DependentUpon>Customer_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\CopyDestination_Form.resx">
+      <DependentUpon>CopyDestination_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\Forest_Page.resx">
+      <DependentUpon>Forest_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ac_Bus.resx">
+      <DependentUpon>Ac_Bus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyAcBus.resx">
+      <DependentUpon>CopyAcBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyNoneAc_Bus.resx">
+      <DependentUpon>CopyNoneAc_Bus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuelBed_4Star.resx">
+      <DependentUpon>DuelBed_4Star.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiveStar_Hotel.resx">
+      <DependentUpon>FiveStar_Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyRoomDesign.resx">
+      <DependentUpon>CopyRoomDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Money.resx">
+      <DependentUpon>Add_Money.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking_change.resx">
+      <DependentUpon>Booking_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourStar_Hotel.resx">
+      <DependentUpon>FourStar_Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memo_frame.resx">
+      <DependentUpon>Memo_frame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotelBed_FiveStar.resx">
+      <DependentUpon>MotelBed_FiveStar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoneAC_Bus.resx">
+      <DependentUpon>NoneAC_Bus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\Historical_Page.resx">
+      <DependentUpon>Historical_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\Mountain_Page.resx">
+      <DependentUpon>Mountain_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\SeaBeach_Page.resx">
+      <DependentUpon>SeaBeach_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoyalBed_FiveStar.resx">
+      <DependentUpon>RoyalBed_FiveStar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleBed_4Star.resx">
+      <DependentUpon>SingleBed_4Star.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile_page.resx">
+      <DependentUpon>UserProfile_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wallet_Page.resx">
+      <DependentUpon>Wallet_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Page.resx">
+      <DependentUpon>Home_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel_Page.resx">
+      <DependentUpon>Hotel_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\SignUp_Customer.resx">
+      <DependentUpon>SignUp_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\SignUp_Staff.resx">
+      <DependentUpon>SignUp_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination\Destination_Page.resx">
+      <DependentUpon>Destination_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transport_Page.resx">
+      <DependentUpon>Transport_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Green_Checkmark_clip_art_hight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Green_Checkmark_clip_art_medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Green_Checkmark_clip_art_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\hide_7mF_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\dummy pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Admin\Admin\Admin.csproj">
+      <Project>{5e34c41b-c73a-42e3-8455-c61fc19cabb1}</Project>
+      <Name>Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Staff_panel\Staff_panel\Staff_panel.csproj">
+      <Project>{84071dd7-7093-43ac-96cd-4fc216f8ac39}</Project>
+      <Name>Staff_panel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
