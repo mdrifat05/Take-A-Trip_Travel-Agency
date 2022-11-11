@@ -1,6 +1,6 @@
 # Take A Trip
        
-Take A Trip is a online travel agency desktop software. it will help the travellers to book hotel and transport management.
+Take A Trip is an online travel agency desktop software. it will help the travellers to book hotel and transport management.
 
 # Tools Used
 
